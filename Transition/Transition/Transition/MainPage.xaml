@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Transition"
+             x:Class="Transition.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+    	<Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button x:Name="ButtonPage1" Text="Page1" Clicked="ButtonPage1_Clicked"/>
+
+        <Button x:Name="ButtonPage2" Text="Page2" Clicked="ButtonPage2_Clicked"/>
+
+        <Button x:Name="ButtonPage3" Text="Page3" Clicked="ButtonPage3_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
